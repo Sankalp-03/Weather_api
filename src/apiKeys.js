@@ -1,5 +1,4 @@
-// Visit https://api.openweathermap.org & then signup to get our API keys for free
 module.exports = {
-  key: "{Your API Key Here}",
+  key: "8c77d4df2adadc3a5cd9317d4662e24b",
   base: "https://api.openweathermap.org/data/2.5/",
 };

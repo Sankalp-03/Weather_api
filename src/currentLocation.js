@@ -175,7 +175,7 @@ class Weather extends React.Component {
               <div className="dmy">
                 <div id="txt"></div>
                 <div className="current-time">
-                  <Clock format="HH:mm:ss" interval={1000} ticking={true} />
+                  <Clock format="HH:mm" interval={1000} ticking={true} />
                 </div>
                 <div className="current-date">{dateBuilder(new Date())}</div>
               </div>
@@ -183,8 +183,6 @@ class Weather extends React.Component {
                 <p>
                   {this.state.temperatureC}°<span>C</span>
                 </p>
-                {/* <span className="slash">/</span>
-                {this.state.temperatureF} &deg;F */}
               </div>
             </div>
           </div>

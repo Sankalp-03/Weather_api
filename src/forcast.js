@@ -87,7 +87,7 @@ function Forcast(props) {
               <li>
                 Temperature{" "}
                 <span className="temp">
-                  {Math.round(weather.main.temp)}°c ({weather.weather[0].main})
+                  {Math.round(weather.main.temp)}°C ({weather.weather[0].main})
                 </span>
               </li>
               <li>
